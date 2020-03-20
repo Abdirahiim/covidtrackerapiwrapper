@@ -15,6 +15,5 @@ C:\Users\Abdirahiim\source\repos\Coronovirus tracker API wrapper - Github\Corono
 C:\Users\Abdirahiim\source\repos\Coronovirus tracker API wrapper - Github\Coronovirus tracker API wrapper\bin\Debug\RestSharp.dll
 C:\Users\Abdirahiim\source\repos\Coronovirus tracker API wrapper - Github\Coronovirus tracker API wrapper\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Abdirahiim\source\repos\Coronovirus tracker API wrapper - Github\Coronovirus tracker API wrapper\bin\Debug\RestSharp.xml
-C:\Users\Abdirahiim\source\repos\Coronovirus tracker API wrapper - Github\Coronovirus tracker API wrapper\obj\Debug\Coronovirus tracker API wrapper.csprojResolveAssemblyReference.cache
 C:\Users\Abdirahiim\source\repos\Coronovirus tracker API wrapper - Github\Coronovirus tracker API wrapper\obj\Debug\Coronovirus tracker API wrapper.dll
 C:\Users\Abdirahiim\source\repos\Coronovirus tracker API wrapper - Github\Coronovirus tracker API wrapper\obj\Debug\Coronovirus tracker API wrapper.pdb
