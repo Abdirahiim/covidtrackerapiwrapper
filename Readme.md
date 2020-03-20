@@ -6,7 +6,7 @@ This is a C# API wrapper for the Coronavirus tracking API(https://github.com/Exp
 static void Main(string[] args)
         {
             // Declares the instance of the API
-            CoronvirusData data = new CoronvirusData();
+            CoronavirusData data = new CoronavirusData();
             
             // Fetches the latest data
             Console.WriteLine("Confirmed: " + data.LatestConfirmed());

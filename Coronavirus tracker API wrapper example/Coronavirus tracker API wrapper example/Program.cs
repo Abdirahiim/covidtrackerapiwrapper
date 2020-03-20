@@ -11,7 +11,7 @@ namespace Coronavirus_tracker_API_wrapper_example
     {
         static void Main(string[] args)
         {
-            CoronvirusData data = new CoronvirusData();
+            CoronavirusData data = new CoronavirusData();
 
             Console.WriteLine("Confirmed: " + data.LatestConfirmed());
             Console.WriteLine("Recovered: " + data.LatestRecovered());

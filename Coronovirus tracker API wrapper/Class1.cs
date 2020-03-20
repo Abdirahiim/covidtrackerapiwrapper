@@ -10,7 +10,7 @@ using Newtonsoft.Json.Linq;
 
 namespace CoronavirusApiWrapper
 {
-    public class CoronvirusData
+    public class CoronavirusData
     {
         //Initiates client
         public static IRestClient client = new RestClient("https://coronavirus-tracker-api.herokuapp.com/");
