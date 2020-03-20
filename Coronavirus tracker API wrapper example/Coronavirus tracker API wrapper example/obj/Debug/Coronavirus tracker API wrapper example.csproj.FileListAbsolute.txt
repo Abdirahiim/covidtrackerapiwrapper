@@ -1,0 +1,14 @@
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\bin\Debug\Coronavirus tracker API wrapper example.exe.config
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\bin\Debug\Coronavirus tracker API wrapper example.exe
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\bin\Debug\Coronavirus tracker API wrapper example.pdb
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\bin\Debug\Coronovirus tracker API wrapper.dll
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\bin\Debug\RestSharp.dll
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\bin\Debug\Coronovirus tracker API wrapper.pdb
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\bin\Debug\RestSharp.xml
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\obj\Debug\Coronavirus tracker API wrapper example.csprojAssemblyReference.cache
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\obj\Debug\Coronavirus tracker API wrapper example.csproj.CoreCompileInputs.cache
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\obj\Debug\Coronavirus tracker API wrapper example.csproj.CopyComplete
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\obj\Debug\Coronavirus tracker API wrapper example.exe
+C:\Users\Abdirahiim\source\repos\Coronavirus tracker API wrapper example\Coronavirus tracker API wrapper example\obj\Debug\Coronavirus tracker API wrapper example.pdb
