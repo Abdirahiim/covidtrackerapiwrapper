@@ -1,9 +1,9 @@
 # CovidSharp
 CovidSharp is a C# API wrapper for the Coronavirus tracking API(https://github.com/ExpDev07/coronavirus-tracker-api)
 
-[![GitHub stars](https://img.shields.io/github/stars/ExpDev07/coronavirus-tracker-api)](https://github.com/Abdirahiim/covidtrackerapiwrapper/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/ExpDev07/coronavirus-tracker-api)](https://github.com/Abdirahiim/covidtrackerapiwrapper/network/members)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ExpDev07/coronavirus-tracker-api)](https://github.com/Abdirahiim/covidtrackerapiwrapper/commits/master)
+[![GitHub stars](https://img.shields.io/github/stars/Abdirahiim/covidtrackerapiwrapper)](https://github.com/Abdirahiim/covidtrackerapiwrapper/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Abdirahiim/covidtrackerapiwrapper)](https://github.com/Abdirahiim/covidtrackerapiwrapper/network/members)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Abdirahiim/covidtrackerapiwrapper)](https://github.com/Abdirahiim/covidtrackerapiwrapper/commits/master)
 [![HitCount](http://hits.dwyl.com/Abdirahiim/covidtrackerapiwrapper.svg)](http://hits.dwyl.com/Abdirahiim/covidtrackerapiwrapper)
 
 ## Example
