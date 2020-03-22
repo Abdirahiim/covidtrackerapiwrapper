@@ -1,5 +1,5 @@
 # CovidSharp
-CovidSharp is a C# API wrapper for the Coronavirus tracking API(https://github.com/ExpDev07/coronavirus-tracker-api)
+CovidSharp is a C# API wrapper for the [Coronavirus tracking API](https://github.com/ExpDev07/coronavirus-tracker-api)
 
 [![GitHub stars](https://img.shields.io/github/stars/Abdirahiim/covidtrackerapiwrapper)](https://github.com/Abdirahiim/covidtrackerapiwrapper/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Abdirahiim/covidtrackerapiwrapper)](https://github.com/Abdirahiim/covidtrackerapiwrapper/network/members)
