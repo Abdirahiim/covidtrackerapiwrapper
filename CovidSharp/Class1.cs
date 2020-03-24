@@ -71,14 +71,8 @@ namespace CovidSharp
             //Deserializes the response
             JObject output = (JObject)JsonConvert.DeserializeObject(response.Content);
 
-            //Stores the 'locations' node in the locations variable
-            var locations = output["locations"];
-
-            //Stores the 'id' sub node of the 'locations' node in the IdInfo variable
-            var IdInfo = locations[0];
-
-            //Stores the 'latest' sub node of the 'id' sub node in the LatestData variable
-            var LatestData = IdInfo["latest"];
+            //Stores the 'latest' node in the LatestData variable
+            var LatestData = output["latest"];
 
             //The 'confirmed' sub node of the 'latest' sub node  is fetched and converted into a string
             var CountryConfirmedData = LatestData["confirmed"].ToString();
@@ -96,16 +90,10 @@ namespace CovidSharp
             //Deserializes the response
             JObject output = (JObject)JsonConvert.DeserializeObject(response.Content);
 
-            //Stores the 'locations' node in the locations variable
-            var locations = output["locations"];
+            //Stores the 'latest' node in the LatestData variable
+            var LatestData = output["latest"];
 
-            //Stores the 'id' sub node of the 'locations' node in the IdInfo variable
-            var IdInfo = locations[0];
-
-            //Stores the 'latest' sub node of the 'id' sub node in the LatestData variable
-            var LatestData = IdInfo["latest"];
-
-            //The 'confirmed' sub node of the 'latest' sub node  is fetched and converted into a string
+            //The 'recovered' sub node of the 'latest' sub node  is fetched and converted into a string
             var CountryRecoveredData = LatestData["recovered"].ToString();
             return CountryRecoveredData;
         }
@@ -121,16 +109,10 @@ namespace CovidSharp
             //Deserializes the response
             JObject output = (JObject)JsonConvert.DeserializeObject(response.Content);
 
-            //Stores the 'locations' node in the locations variable
-            var locations = output["locations"];
-
-            //Stores the 'id' sub node of the 'locations' node in the IdInfo variable
-            var IdInfo = locations[0];
-
-            //Stores the 'latest' sub node of the 'id' sub node in the LatestData variable
-            var LatestData = IdInfo["latest"];
-
-            //The 'confirmed' sub node of the 'latest' sub node  is fetched and converted into a string
+            //Stores the 'latest' node in the LatestData variable
+            var LatestData = output["latest"];
+      
+            //The 'Deaths' sub node of the 'latest' sub node  is fetched and converted into a string
             var CountryDeathsData = LatestData["deaths"].ToString();
             return CountryDeathsData;
         }

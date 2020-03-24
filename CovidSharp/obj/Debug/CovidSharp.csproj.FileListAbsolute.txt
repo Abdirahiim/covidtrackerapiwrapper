@@ -4,7 +4,6 @@ C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Debug\Newton
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Debug\RestSharp.dll
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Debug\RestSharp.xml
-C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.csprojAssemblyReference.cache
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.csproj.CoreCompileInputs.cache
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.csproj.CopyComplete
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.dll
