@@ -70,4 +70,4 @@ You can use the associated ID of a province or country to get the desired inform
 ```
 
 ## Constribution
-All contributions are welcomed
+If you want to contribute, go ahead and do a PR
