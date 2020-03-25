@@ -17,15 +17,21 @@ namespace Coronavirus_tracker_API_wrapper_example
             Console.WriteLine("Recovered: " + data.LatestRecovered());
             Console.WriteLine("Deaths: " + data.LatestDeaths());
 
-            
-            Console.WriteLine("Denmark Confirmed: " + data.FromCountryConfirmed("DK"));
-            Console.WriteLine("Denmark Recovered: " + data.FromCountryRecovered("DK"));
-            Console.WriteLine("Denmark Deaths: " + data.FromCountryDeaths("DK"));
 
-            Console.WriteLine("Denmark ID Confirmed: " + data.FromIDConfirmed("94"));
-            Console.WriteLine("Denmark  ID Recovered: " + data.FromCountryRecovered("94"));
-            Console.WriteLine("Denmark ID Deaths: " + data.FromCountryDeaths("94"));
+            // Fetches the latest data of a country code.
+            string country_code = "DK";
+            Console.WriteLine("Denmark Confirmed: " + data.FromCountryCodeConfirmed(country_code));
+            Console.WriteLine("Denmark Recovered: " + data.FromCountryCodeRecovered(country_code));
+            Console.WriteLine("Denmark Deaths: " + data.FromCountryCodeDeaths(country_code));
 
+            // Fetches the latest data of a country Name.
+            string country_name = "China";
+            Console.WriteLine("China Confirmed: " + data.FromCountryNameConfirmed(country_name));
+            Console.WriteLine("China Recovered: " + data.FromCountryNameRecovered(country_name));
+            Console.WriteLine("China Deaths: " + data.FromCountryNameDeaths(country_name));
+            Console.ReadLine();
+
+            //Fetches the data of the Country/province associated with the ID
             Console.WriteLine("Name of the Faroe Islands: " + data.FromIDProvince("92"));
             Console.WriteLine("Name of the country of the Faroe Islands: " + data.FromIDCountry("92"));
 

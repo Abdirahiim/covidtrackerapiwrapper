@@ -38,6 +38,15 @@ CoronavirusData data = new CoronavirusData();
  Console.WriteLine("Denmark Recovered: " + data.FromCountryRecovered("DK"));
  Console.WriteLine("Denmark Deaths: " + data.FromCountryDeaths("DK"));
 ```
+### Get Data by country name
+
+- Use a country code and fetch the latest data of that country
+```c#
+   Console.WriteLine("China Confirmed: " + data.FromCountryNameConfirmed("China"));
+   Console.WriteLine("China Recovered: " + data.FromCountryNameRecovered("China"));
+   Console.WriteLine("China Deaths: " + data.FromCountryNameDeaths(country_name));
+```
+
 ### Get Data by ID
 
 You can use the associated ID of a province or country to get the desired information

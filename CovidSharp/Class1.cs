@@ -60,10 +60,10 @@ namespace CovidSharp
             return LatestDeathsData;
         }
 
-        public string FromCountryConfirmed(string country)
+        public string FromCountryCodeConfirmed(string country_code)
         {
             //Sends a GET request to the API
-            var request = new RestRequest("v2/locations?country_code=" + country, Method.GET);
+            var request = new RestRequest("v2/locations?country_code=" + country_code, Method.GET);
 
             //Fetches the response from the API
             var response = client.Execute(request);
@@ -79,10 +79,10 @@ namespace CovidSharp
             return CountryConfirmedData;
         }
 
-        public string FromCountryRecovered(string country)
+        public string FromCountryCodeRecovered(string country_code)
         {
             //Sends a GET request to the API
-            var request = new RestRequest("v2/locations?country_code=" + country, Method.GET);
+            var request = new RestRequest("v2/locations?country_code=" + country_code, Method.GET);
 
             //Fetches the response from the API
             var response = client.Execute(request);
@@ -98,10 +98,10 @@ namespace CovidSharp
             return CountryRecoveredData;
         }
 
-        public string FromCountryDeaths(string country)
+        public string FromCountryCodeDeaths(string country_code)
         {
             //Sends a GET request to the API
-            var request = new RestRequest("v2/locations?country_code=" + country, Method.GET);
+            var request = new RestRequest("v2/locations?country_code=" + country_code, Method.GET);
 
             //Fetches the response from the API
             var response = client.Execute(request);
@@ -111,11 +111,69 @@ namespace CovidSharp
 
             //Stores the 'latest' node in the LatestData variable
             var LatestData = output["latest"];
-      
+
             //The 'Deaths' sub node of the 'latest' sub node  is fetched and converted into a string
             var CountryDeathsData = LatestData["deaths"].ToString();
             return CountryDeathsData;
         }
+
+        public string FromCountryNameConfirmed(string country_name)
+        {
+            //Sends a GET request to the API
+            var request = new RestRequest("v2/locations?country=" + country_name, Method.GET);
+
+            //Fetches the response from the API
+            var response = client.Execute(request);
+
+            //Deserializes the response
+            JObject output = (JObject)JsonConvert.DeserializeObject(response.Content);
+
+            //Stores the 'latest' node in the LatestData variable
+            var LatestData = output["latest"];
+
+            //The 'confirmed' sub node of the 'latest' sub node  is fetched and converted into a string
+            var CountryConfirmedData = LatestData["confirmed"].ToString();
+            return CountryConfirmedData;
+        }
+
+        public string FromCountryNameRecovered(string country_name)
+        {
+            //Sends a GET request to the API
+            var request = new RestRequest("v2/locations?country=" + country_name, Method.GET);
+
+            //Fetches the response from the API
+            var response = client.Execute(request);
+
+            //Deserializes the response
+            JObject output = (JObject)JsonConvert.DeserializeObject(response.Content);
+
+            //Stores the 'latest' node in the LatestData variable
+            var LatestData = output["latest"];
+
+            //The 'recovered' sub node of the 'latest' sub node  is fetched and converted into a string
+            var CountryRecoveredData = LatestData["recovered"].ToString();
+            return CountryRecoveredData;
+        }
+
+        public string FromCountryNameDeaths(string country_name)
+        {
+            //Sends a GET request to the API
+            var request = new RestRequest("v2/locations?country=" + country_name, Method.GET);
+
+            //Fetches the response from the API
+            var response = client.Execute(request);
+
+            //Deserializes the response
+            JObject output = (JObject)JsonConvert.DeserializeObject(response.Content);
+
+            //Stores the 'latest' node in the LatestData variable
+            var LatestData = output["latest"];
+
+            //The 'Deaths' sub node of the 'latest' sub node  is fetched and converted into a string
+            var CountryDeathsData = LatestData["deaths"].ToString();
+            return CountryDeathsData;
+        }
+
 
         public string FromIDConfirmed(string ID)
         {
