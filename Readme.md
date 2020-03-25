@@ -44,7 +44,7 @@ CoronavirusData data = new CoronavirusData();
 ```c#
    Console.WriteLine("China Confirmed: " + data.FromCountryNameConfirmed("China"));
    Console.WriteLine("China Recovered: " + data.FromCountryNameRecovered("China"));
-   Console.WriteLine("China Deaths: " + data.FromCountryNameDeaths(country_name));
+   Console.WriteLine("China Deaths: " + data.FromCountryNameDeaths("China"));
 ```
 
 ### Get Data by ID
