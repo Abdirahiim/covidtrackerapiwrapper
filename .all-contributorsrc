@@ -16,6 +16,16 @@
         "example",
         "maintenance"
       ]
+    },
+    {
+      "login": "haseeb-heaven",
+      "name": "HaseeB Mir",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/11544739?v=4",
+      "profile": "https://github.com/haseeb-heaven",
+      "contributions": [
+        "code",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
