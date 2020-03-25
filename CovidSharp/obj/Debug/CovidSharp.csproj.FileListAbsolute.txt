@@ -8,3 +8,4 @@ C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidS
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.csproj.CopyComplete
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.dll
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.pdb
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.csprojAssemblyReference.cache

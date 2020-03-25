@@ -1,0 +1,12 @@
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Release\CovidSharp.dll
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Release\CovidSharp.pdb
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Release\Newtonsoft.Json.dll
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Release\RestSharp.dll
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Release\Newtonsoft.Json.xml
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Release\RestSharp.xml
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Release\CovidSharp.csproj.CoreCompileInputs.cache
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Release\CovidSharp.csproj.CopyComplete
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Release\CovidSharp.dll
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Release\CovidSharp.pdb
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\bin\Release\CovidSharp.xml
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Release\CovidSharp.csprojAssemblyReference.cache
