@@ -68,3 +68,7 @@ You can use the associated ID of a province or country to get the desired inform
 ```c#
   Console.WriteLine("Denmark Longtitude: " + data.FromIDLongitude("94"));
 ```
+
+## Constribution
+
+All contributions are welcomed
