@@ -8,3 +8,13 @@ C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidS
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.csproj.CopyComplete
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.dll
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\obj\Debug\CovidSharp.pdb
+F:\C#\covidtrackerapiwrapper\CovidSharp\bin\Debug\CovidSharp.dll
+F:\C#\covidtrackerapiwrapper\CovidSharp\bin\Debug\CovidSharp.pdb
+F:\C#\covidtrackerapiwrapper\CovidSharp\bin\Debug\Newtonsoft.Json.dll
+F:\C#\covidtrackerapiwrapper\CovidSharp\bin\Debug\RestSharp.dll
+F:\C#\covidtrackerapiwrapper\CovidSharp\bin\Debug\Newtonsoft.Json.xml
+F:\C#\covidtrackerapiwrapper\CovidSharp\bin\Debug\RestSharp.xml
+F:\C#\covidtrackerapiwrapper\CovidSharp\obj\Debug\CovidSharp.csprojAssemblyReference.cache
+F:\C#\covidtrackerapiwrapper\CovidSharp\obj\Debug\CovidSharp.csproj.CopyComplete
+F:\C#\covidtrackerapiwrapper\CovidSharp\obj\Debug\CovidSharp.dll
+F:\C#\covidtrackerapiwrapper\CovidSharp\obj\Debug\CovidSharp.pdb
