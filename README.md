@@ -1,4 +1,7 @@
 # CovidSharp
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 CovidSharp is a C# API wrapper for the [Coronavirus tracking API](https://github.com/ExpDev07/coronavirus-tracker-api)
 
 [![NuGet](https://img.shields.io/nuget/v/CovidSharp.svg?label=NuGet)](https://www.nuget.org/packages/CovidSharp/)
@@ -80,3 +83,21 @@ You can use the associated ID of a province or country to get the desired inform
 
 ## Constribution
 If you want to contribute, go ahead and do a PR
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Abdirahiim"><img src="https://avatars0.githubusercontent.com/u/13730460?v=4" width="100px;" alt=""/><br /><sub><b>Abdirahiim Yassin </b></sub></a><br /><a href="https://github.com/Abdirahiim/covidtrackerapiwrapper/commits?author=Abdirahiim" title="Code">💻</a> <a href="https://github.com/Abdirahiim/covidtrackerapiwrapper/commits?author=Abdirahiim" title="Documentation">📖</a> <a href="#example-Abdirahiim" title="Examples">💡</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
