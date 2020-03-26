@@ -26,6 +26,15 @@
         "code",
         "example"
       ]
+    },
+    {
+      "login": "Raamyy",
+      "name": "Ramy Gamal",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29176293?v=4",
+      "profile": "https://github.com/Raamyy",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
