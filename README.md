@@ -53,6 +53,7 @@ CoronavirusData data = new CoronavirusData();
 ### Get Data by ID
 
 You can use the associated ID of a province or country to get the desired information
+You can find countries IDs [here](http://coronavirus-tracker-api.herokuapp.com/v2/locations)
 
 - This code gets the latest data of Denmark using ID instead of a country code
 ```c#
