@@ -94,6 +94,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/Abdirahiim"><img src="https://avatars0.githubusercontent.com/u/13730460?v=4" width="100px;" alt=""/><br /><sub><b>Abdirahiim Yassin </b></sub></a><br /><a href="https://github.com/Abdirahiim/covidtrackerapiwrapper/commits?author=Abdirahiim" title="Code">💻</a> <a href="https://github.com/Abdirahiim/covidtrackerapiwrapper/commits?author=Abdirahiim" title="Documentation">📖</a> <a href="#example-Abdirahiim" title="Examples">💡</a> <a href="#maintenance-Abdirahiim" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://github.com/haseeb-heaven"><img src="https://avatars0.githubusercontent.com/u/11544739?v=4" width="100px;" alt=""/><br /><sub><b>HaseeB Mir</b></sub></a><br /><a href="https://github.com/Abdirahiim/covidtrackerapiwrapper/commits?author=haseeb-heaven" title="Code">💻</a> <a href="#example-haseeb-heaven" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/Raamyy"><img src="https://avatars3.githubusercontent.com/u/29176293?v=4" width="100px;" alt=""/><br /><sub><b>Ramy Gamal</b></sub></a><br /><a href="https://github.com/Abdirahiim/covidtrackerapiwrapper/commits?author=Raamyy" title="Documentation">📖</a></td>
   </tr>
 </table>
 
