@@ -59,7 +59,68 @@ namespace CovidSharp
             var LatestDeathsData = LatestData["deaths"].ToString();
             return LatestDeathsData;
         }
+        
+         public static string GetCountryList(string source = "jhu")
+        {
+            string country_list = GetCountryData("country", source);
+            return country_list;
+        }
 
+        public static string GetPopulationList(string source = "jhu")
+        {
+            string population_list = GetCountryData("country_population", source);
+            return population_list;
+        }
+
+        public static string GetProvinceList(string source = "jhu")
+        {
+            string province_list = GetCountryData("province", source);
+            return province_list;
+        }
+
+        public static string GetCountyList(string source = "jhu")
+        {
+            string county_list = GetCountryData("county", source);
+            return county_list;
+        }
+
+        //General method to get country data.
+        private static string GetCountryData(string data_type, string source = "jhu")
+        {
+            string data_list = null;
+            var data_set = new SortedSet<string>();
+            try
+            {
+                //Sends a GET request to the API
+                var request = new RestRequest("v2/locations?source=" + source, Method.GET);
+
+                //Fetches the response from the API
+                var response = client.Execute(request);
+
+                //Deserializes the response
+                JObject output = (JObject)JsonConvert.DeserializeObject(response.Content);
+
+                //Stores the 'locations' node
+                var locations = output["locations"];
+                JArray loc_arr = (JArray)locations;
+
+                //Loop untill all countries and add them in HashSet to remove duplicates.
+                for (int index = 0; index < loc_arr.Count; index++)
+                {
+                    string country_data = locations[index][data_type].ToString();
+                    data_set.Add(country_data);
+                }
+
+                data_list = string.Join("\n", data_set);
+            }
+            catch (NullReferenceException ex)
+            {
+                data_list = "Data not available try changing source";
+            }
+            return data_list;
+        }
+        
+        
         public string FromCountryCodeConfirmed(string country_code)
         {
             //Sends a GET request to the API
