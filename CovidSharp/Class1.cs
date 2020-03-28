@@ -60,25 +60,25 @@ namespace CovidSharp
             return LatestDeathsData;
         }
         
-         public static string GetCountryList(string source = "jhu")
+         public string GetCountryList(string source = "jhu")
         {
             string country_list = GetCountryData("country", source);
             return country_list;
         }
 
-        public static string GetPopulationList(string source = "jhu")
+        public string GetPopulationList(string source = "jhu")
         {
             string population_list = GetCountryData("country_population", source);
             return population_list;
         }
 
-        public static string GetProvinceList(string source = "jhu")
+        public string GetProvinceList(string source = "jhu")
         {
             string province_list = GetCountryData("province", source);
             return province_list;
         }
 
-        public static string GetCountyList(string source = "jhu")
+        public string GetCountyList(string source = "jhu")
         {
             string county_list = GetCountryData("county", source);
             return county_list;
@@ -178,6 +178,28 @@ namespace CovidSharp
             return CountryDeathsData;
         }
 
+        public string FromCountryCodePopulation(string country_code)
+        {
+            //Sends a GET request to the API
+            var request = new RestRequest("v2/locations?country_code=" + country_code, Method.GET);
+
+            //Fetches the response from the API
+            var response = client.Execute(request);
+
+            //Deserializes the response
+            JObject output = (JObject)JsonConvert.DeserializeObject(response.Content);
+
+            //Stores the 'locations' node in the location variable
+            var Location = output["locations"];
+
+            //Stores the 'id' sub node in the TheID variable
+            var TheID = Location[0];
+
+            //The 'country_population' sub node of the 'id' sub node  is fetched and converted into a string
+            var CountryCodePopulation = TheID["country_population"].ToString();
+            return CountryCodePopulation;
+        }
+
         public string FromCountryNameConfirmed(string country_name)
         {
             //Sends a GET request to the API
@@ -234,6 +256,29 @@ namespace CovidSharp
             var CountryDeathsData = LatestData["deaths"].ToString();
             return CountryDeathsData;
         }
+
+        public string FromCountryNamePopulation(string country_name)
+        {
+            //Sends a GET request to the API
+            var request = new RestRequest("v2/locations?country=" + country_name, Method.GET);
+
+            //Fetches the response from the API
+            var response = client.Execute(request);
+
+            //Deserializes the response
+            JObject output = (JObject)JsonConvert.DeserializeObject(response.Content);
+
+            //Stores the 'locations' node in the location variable
+            var Location = output["locations"];
+
+            //Stores the 'id' sub node in the TheID variable
+            var TheID = Location[0];
+
+            //The 'country_population' sub node of the 'id' sub node  is fetched and converted into a string
+            var CountryPopulationData = TheID["country_population"].ToString();
+            return CountryPopulationData;
+        }
+
 
 
         public string FromIDConfirmed(string ID)
@@ -385,6 +430,28 @@ namespace CovidSharp
             //The 'province' sub node of the 'id' sub node  is fetched and converted into a string
             var IDProvinceName = TheID["province"].ToString();
             return IDProvinceName;
+        }
+
+        public string FromIDPopulation(string ID)
+        {
+            //Sends a GET request to the API
+            var request = new RestRequest("v2/locations?id=" + ID, Method.GET);
+
+            //Fetches the response from the API
+            var response = client.Execute(request);
+
+            //Deserializes the response
+            JObject output = (JObject)JsonConvert.DeserializeObject(response.Content);
+
+            //Stores the 'locations' node in the location variable
+            var Location = output["locations"];
+
+            //Stores the 'id' sub node in the TheID variable
+            var TheID = Location[0];
+
+            //The 'country_population' sub node of the 'id' sub node  is fetched and converted into a string
+            var IDPopulationData = TheID["country_population"].ToString();
+            return IDPopulationData;
         }
 
     }

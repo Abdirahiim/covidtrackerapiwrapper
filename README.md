@@ -40,6 +40,7 @@ CoronavirusData data = new CoronavirusData();
  Console.WriteLine("Denmark Confirmed: " + data.FromCountryConfirmed("DK"));
  Console.WriteLine("Denmark Recovered: " + data.FromCountryRecovered("DK"));
  Console.WriteLine("Denmark Deaths: " + data.FromCountryDeaths("DK"));
+ Console.WriteLine("Denmark Deaths: " + data.FromCountryCodePopulation("DK"));
 ```
 ### Get Data by country name
 
@@ -47,7 +48,7 @@ CoronavirusData data = new CoronavirusData();
 ```c#
    Console.WriteLine("China Confirmed: " + data.FromCountryNameConfirmed("China"));
    Console.WriteLine("China Recovered: " + data.FromCountryNameRecovered("China"));
-   Console.WriteLine("China Deaths: " + data.FromCountryNameDeaths("China"));
+   Console.WriteLine("China population: " + data.FromCountryNamePopulation("China"));
 ```
 
 ### Get Data by ID
@@ -60,6 +61,7 @@ You can find countries IDs [here](http://coronavirus-tracker-api.herokuapp.com/v
  Console.WriteLine("Denmark ID Confirmed: " + data.FromIDConfirmed("94"));
  Console.WriteLine("Denmark  ID Recovered: " + data.FromCountryRecovered("94"));
  Console.WriteLine("Denmark ID Deaths: " + data.FromCountryDeaths("94"));
+ Console.WriteLine("Denmark Population: " + data.FromIDPopulation("94"));
 ```
 
 - Get the province name associated with an ID, in this case the ID of 92 is associated with the Faroe Islands province
@@ -81,6 +83,33 @@ You can find countries IDs [here](http://coronavirus-tracker-api.herokuapp.com/v
 ```c#
   Console.WriteLine("Denmark Longtitude: " + data.FromIDLongitude("94"));
 ```
+
+### Get a list of data
+
+You can easily fetch a list of your desired data, the default source is always jhs
+
+- Get a list of the all the countries in the world
+```c#
+  Console.WriteLine(data.GetCountryList());
+```
+
+- Get a list of the populations of all the countries in the world
+```c#
+  Console.WriteLine(data.GetPopulationList());
+```
+
+- Get a list of the provinces of all the countries in the world
+```c#
+  Console.WriteLine(data.GetProvinceList());
+```
+
+- Get a list of the counties in the US using CSBS as a source
+```c#
+  Console.WriteLine(data.GetCountyList("csbs"));
+```
+
+
+
 
 
 ## Contributors ✨

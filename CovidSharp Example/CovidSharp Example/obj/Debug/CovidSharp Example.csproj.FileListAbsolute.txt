@@ -1,9 +1,6 @@
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\bin\Debug\Coronavirus tracker API wrapper example.exe.config
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\bin\Debug\Coronavirus tracker API wrapper example.exe
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\bin\Debug\Coronavirus tracker API wrapper example.pdb
-C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\bin\Debug\RestSharp.xml
-C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\obj\Debug\CovidSharp Example.csprojAssemblyReference.cache
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\obj\Debug\CovidSharp Example.csproj.CoreCompileInputs.cache
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\obj\Debug\CovidSharp Example.csproj.CopyComplete
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\obj\Debug\Coronavirus tracker API wrapper example.exe
