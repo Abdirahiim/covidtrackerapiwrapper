@@ -35,16 +35,16 @@ CoronavirusData data = new CoronavirusData();
 
 ### Get Data by country code
 
-- Use a country code and fetch the latest data of that country
+- Use a country code and fetch the data of that country
 ```c#
  Console.WriteLine("Denmark Confirmed: " + data.FromCountryConfirmed("DK"));
  Console.WriteLine("Denmark Recovered: " + data.FromCountryRecovered("DK"));
  Console.WriteLine("Denmark Deaths: " + data.FromCountryDeaths("DK"));
- Console.WriteLine("Denmark Deaths: " + data.FromCountryCodePopulation("DK"));
+ Console.WriteLine("Denmark Population: " + data.FromCountryCodePopulation("DK"));
 ```
 ### Get Data by country name
 
-- Use a country code and fetch the latest data of that country
+- Use a country code and fetch the data of that country
 ```c#
    Console.WriteLine("China Confirmed: " + data.FromCountryNameConfirmed("China"));
    Console.WriteLine("China Recovered: " + data.FromCountryNameRecovered("China"));
@@ -61,7 +61,6 @@ You can find countries IDs [here](http://coronavirus-tracker-api.herokuapp.com/v
  Console.WriteLine("Denmark ID Confirmed: " + data.FromIDConfirmed("94"));
  Console.WriteLine("Denmark  ID Recovered: " + data.FromCountryRecovered("94"));
  Console.WriteLine("Denmark ID Deaths: " + data.FromCountryDeaths("94"));
- Console.WriteLine("Denmark Population: " + data.FromIDPopulation("94"));
 ```
 
 - Get the province name associated with an ID, in this case the ID of 92 is associated with the Faroe Islands province
@@ -82,6 +81,11 @@ You can find countries IDs [here](http://coronavirus-tracker-api.herokuapp.com/v
 - Get the longitude associated with an ID
 ```c#
   Console.WriteLine("Denmark Longtitude: " + data.FromIDLongitude("94"));
+```
+
+- Get the country population associated with an ID
+```c#
+   Console.WriteLine("Denmark Population: " + data.FromIDPopulation("94"));
 ```
 
 ### Get a list of data
