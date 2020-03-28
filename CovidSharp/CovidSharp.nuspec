@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CovidSharp</id>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <title>CovidSharp</title>
     <authors>Abdirahiim Yassin</authors>
     <owners>Abdirahiim Yassin</owners>
@@ -10,7 +10,7 @@
     <license type="expression">MIT</license>
     <projectUrl>http://https://github.com/Abdirahiim/covidtrackerapiwrapper/</projectUrl>
     <description>CovidSharp is a C# API wrapper for a Coronavirus tracking API</description>
-    <releaseNotes>Can now get data by country name.</releaseNotes>
+    <releaseNotes>Can now get population data and get county,province, population and country data as lists</releaseNotes>
     <copyright>2020 (C) Abdirahiim Yassin</copyright>
     <tags>CovidSharp covidsharp covidtrackerapiwrapper covid coronavirus coronavirusapi Abdirahiim Yassin abdirahiim</tags>
   </metadata>
