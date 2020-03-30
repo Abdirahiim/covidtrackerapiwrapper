@@ -5,3 +5,4 @@ C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSha
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\obj\Debug\CovidSharp Example.csproj.CopyComplete
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\obj\Debug\Coronavirus tracker API wrapper example.exe
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\obj\Debug\Coronavirus tracker API wrapper example.pdb
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp Example\CovidSharp Example\obj\Debug\CovidSharp Example.csprojAssemblyReference.cache
