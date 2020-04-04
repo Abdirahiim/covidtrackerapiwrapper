@@ -35,6 +35,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jacobtonder",
+      "name": "Jacob Tønder",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13803549?v=4",
+      "profile": "https://jacobtonder.dk",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
