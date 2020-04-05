@@ -205,6 +205,8 @@ PublishScripts/
 *.nuget.props
 *.nuget.targets
 
+**/nuget.exe
+
 # Microsoft Azure Build Output
 csx/
 *.build.csdef

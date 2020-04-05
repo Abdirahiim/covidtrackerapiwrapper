@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>CovidSharp</id>
+    <version>2.0.0</version>
+    <title>CovidSharp</title>
+    <authors>Abdirahiim Yassin</authors>
+    <owners>Abdirahiim Yassin</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>http://https://github.com/Abdirahiim/covidtrackerapiwrapper/</projectUrl>
+    <description>CovidSharp is a C# API wrapper for a Coronavirus tracking API</description>
+    <releaseNotes>New interface for interaction with API</releaseNotes>
+    <copyright>2020 (C) Abdirahiim Yassin</copyright>
+    <tags>CovidSharp covidsharp covidtrackerapiwrapper covid coronavirus coronavirusapi Abdirahiim Yassin abdirahiim</tags>
+  </metadata>
+</package>

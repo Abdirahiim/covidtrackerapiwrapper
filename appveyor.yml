@@ -6,5 +6,5 @@ environment:
   COVERALLS_REPO_TOKEN:
    secure: mNEHt1VSPJtMznfZwdt32/21asKb/OsK3LgUapzOYEpfyfnBTZl9lMzFwhZZ0Jkf
 build:
-  project: CovidSharp/CovidSharp.sln
+  project: CovidSharp.sln
   verbosity: minimal
