@@ -1,3 +1,3 @@
 language: csharp
 mono: none
-solution: "CovidSharp/CovidSharp/CovidSharp.csproj"
+solution: "CovidSharp/CovidSharp.sln"
