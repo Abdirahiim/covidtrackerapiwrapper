@@ -1,7 +1,3 @@
 language: csharp
-mono: none
-dotnet: 2.0
+dist: xenial
 solution: "./CoviSharp/CovidSharp.sln"
-script:
-  - dotnet restore
-  - dotnet test
