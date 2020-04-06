@@ -1,0 +1,17 @@
+C:\Users\Abdirahiim\source\repos\CovidSharp\CovidSharp\bin\Release\netstandard2.0\CovidSharp.deps.json
+C:\Users\Abdirahiim\source\repos\CovidSharp\CovidSharp\bin\Release\netstandard2.0\CovidSharp.dll
+C:\Users\Abdirahiim\source\repos\CovidSharp\CovidSharp\bin\Release\netstandard2.0\CovidSharp.pdb
+C:\Users\Abdirahiim\source\repos\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.csproj.CoreCompileInputs.cache
+C:\Users\Abdirahiim\source\repos\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.AssemblyInfoInputs.cache
+C:\Users\Abdirahiim\source\repos\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.AssemblyInfo.cs
+C:\Users\Abdirahiim\source\repos\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.dll
+C:\Users\Abdirahiim\source\repos\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.pdb
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\bin\Release\netstandard2.0\CovidSharp.deps.json
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\bin\Release\netstandard2.0\CovidSharp.dll
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\bin\Release\netstandard2.0\CovidSharp.pdb
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.csprojAssemblyReference.cache
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.csproj.CoreCompileInputs.cache
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.AssemblyInfoInputs.cache
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.AssemblyInfo.cs
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.dll
+C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\obj\Release\netstandard2.0\CovidSharp.pdb

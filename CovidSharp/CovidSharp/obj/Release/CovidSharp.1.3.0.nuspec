@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CovidSharp</id>
+    <version>1.3.0</version>
+    <authors>Abdirahiim Yassin</authors>
+    <owners>Abdirahiim Yassin</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/Abdirahiim/covidtrackerapiwrapper/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>http://https//github.com/Abdirahiim/covidtrackerapiwrapper/</projectUrl>
+    <description>CovidSharp is a crossplatform C# API wrapper for a Coronavirus tracking API</description>
+    <releaseNotes>Added error handling and ported it to .NET standard 2.0</releaseNotes>
+    <copyright>2020 (C) Abdirahiim Yassin</copyright>
+    <tags>CovidSharp covidsharp covidtrackerapiwrapper covid coronavirus coronavirusapi Abdirahiim Yassin abdirahiim</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="RestSharp" version="106.10.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\bin\Release\netstandard2.0\CovidSharp.dll" target="lib\netstandard2.0\CovidSharp.dll" />
+  </files>
+</package>
