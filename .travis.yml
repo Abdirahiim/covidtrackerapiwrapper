@@ -1,9 +1,4 @@
 language: csharp
 sudo: required
 dist: xenial
-mono: none
-dotnet: 2.0
 solution: "./CoviSharp/CovidSharp.sln"
-script:
-  - dotnet restore
-  - dotnet test
