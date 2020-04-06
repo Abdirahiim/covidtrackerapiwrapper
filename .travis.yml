@@ -1,4 +1,6 @@
 language: csharp
+dist: xenial
 mono: none
+sudo: required
 dotnet: 2.0
 solution: "CovidSharp/CovidSharp/CovidSharp.csproj"
