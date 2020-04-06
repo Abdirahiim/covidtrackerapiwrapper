@@ -1,4 +1,2 @@
 language: csharp
 solution: "./CoviSharp/CovidSharp.sln"
-install:
-- travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./CoviSharp/CovidSharp.sln"
