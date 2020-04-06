@@ -4,5 +4,5 @@ mono: none
 solution: "CoviSharp/CovidSharp.sln"
 
 script:
-  - dotnet restore
-  - dotnet test
+  - dotnet restore CoviSharp/CovidSharp.sln
+  - dotnet test CoviSharp/CovidSharp.sln
