@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.3.0</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Copyright>2020 (C) Abdirahiim Yassin</Copyright>
+    <Authors>Abdirahiim Yassin</Authors>
+    <Company>Abdirahiim Yassin</Company>
+    <PackageProjectUrl>http://https://github.com/Abdirahiim/covidtrackerapiwrapper/</PackageProjectUrl>
+    <Description>CovidSharp is a crossplatform C# API wrapper for a Coronavirus tracking API</Description>
+    <PackageTags>CovidSharp covidsharp covidtrackerapiwrapper covid coronavirus coronavirusapi Abdirahiim Yassin abdirahiim</PackageTags>
+    <PackageReleaseNotes>Added error handling and ported it to .NET standard 2.0</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/Abdirahiim/covidtrackerapiwrapper/blob/master/LICENSE.txt</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="RestSharp" Version="106.10.1" />
+  </ItemGroup>
+
+</Project>
