@@ -2,7 +2,3 @@ language: csharp
 os: windows
 mono: none
 solution: "CovidSharp/CovidSharp/CovidSharp.csproj"
-
-script:
-  - dotnet restore 
-  - dotnet test
