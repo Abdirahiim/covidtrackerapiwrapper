@@ -1,5 +1,5 @@
 # CovidSharp
-[![Build status](https://ci.appveyor.com/api/projects/status/g4v7ilorkumnr0e3?svg=true)](https://ci.appveyor.com/project/Abdirahiim/covidtrackerapiwrapper)
+[![Build status](https://ci.appveyor.com/api/projects/status/g4v7ilorkumnr0e3?svg=true)](https://ci.appveyor.com/project/Abdirahiim/covidsharp)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 [![NuGet](https://img.shields.io/nuget/v/CovidSharp.svg?label=NuGet)](https://www.nuget.org/packages/CovidSharp/)
 ![NuGet](https://img.shields.io/nuget/dt/CovidSharp.svg)
