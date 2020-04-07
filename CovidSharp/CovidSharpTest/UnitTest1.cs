@@ -16,7 +16,7 @@ namespace CovidSharpTest
             var ActualLatestConfirmed = data.LatestConfirmed();
 
             //Insert here the current confirmed numbers in the API
-            var ExpectedLatestConfirmed = "1272115";
+            var ExpectedLatestConfirmed = "1345048";
 
             //Checks if the two values are equal
             Assert.AreEqual(ExpectedLatestConfirmed,ActualLatestConfirmed);
@@ -42,7 +42,7 @@ namespace CovidSharpTest
             var ActualLatestDeaths = data.LatestDeaths();
 
             //Insert here the current deaths numbers in the API
-            var ExpectedLatestDeaths = "69374";
+            var ExpectedLatestDeaths = "74565";
 
             //Checks if the two values are equal
             Assert.AreEqual(ExpectedLatestDeaths, ActualLatestDeaths);
@@ -55,7 +55,7 @@ namespace CovidSharpTest
             var ActualLatestConfirmed = data.FromCountryCodeConfirmed("DK");
 
             //Insert here the current confirmed numbers in the API
-            var ExpectedLatestConfirmed = "4561";
+            var ExpectedLatestConfirmed = "4875";
 
             Assert.AreEqual(ExpectedLatestConfirmed, ActualLatestConfirmed);
         }
@@ -79,7 +79,7 @@ namespace CovidSharpTest
             var ActualLatestDeaths = data.FromCountryCodeDeaths("DK");
 
             //Insert here the current deaths numbers in the API
-            var ExpectedLatestDeaths = "179";
+            var ExpectedLatestDeaths = "187";
 
             Assert.AreEqual(ExpectedLatestDeaths, ActualLatestDeaths);
         }
@@ -103,7 +103,7 @@ namespace CovidSharpTest
             var ActualLatestConfirmed = data.FromCountryNameConfirmed("Denmark");
 
             //Insert here the current confirmed numbers in the API
-            var ExpectedLatestConfirmed = "4561";
+            var ExpectedLatestConfirmed = "4875";
 
             Assert.AreEqual(ExpectedLatestConfirmed, ActualLatestConfirmed);
         }
@@ -118,6 +118,18 @@ namespace CovidSharpTest
             var ExpectedLatestRecovered = "0";
 
             Assert.AreEqual(ExpectedLatestRecovered, ActualLatestRecovered);
+        }
+
+        [TestMethod]
+        public void TestFromCountryNameDeaths()
+        {
+            //Actual Latest deaths numbers 
+            var ActualLatestDeaths = data.FromCountryNameDeaths("Denmark");
+
+            //Insert here the current deaths numbers in the API
+            var ExpectedLatestDeaths = "187";
+
+            Assert.AreEqual(ExpectedLatestDeaths, ActualLatestDeaths);
         }
 
         [TestMethod]
@@ -139,7 +151,7 @@ namespace CovidSharpTest
             var ActualLatestConfirmed = data.FromIDConfirmed("94");
 
             //Insert here the current confirmed numbers in the API
-            var ExpectedLatestConfirmed = "4369";
+            var ExpectedLatestConfirmed = "4681";
 
             Assert.AreEqual(ExpectedLatestConfirmed, ActualLatestConfirmed);
         }
@@ -163,7 +175,7 @@ namespace CovidSharpTest
             var ActualLatestDeaths = data.FromIDDeaths("94");
 
             //Insert here the current deaths numbers in the API
-            var ExpectedLatestDeaths = "179";
+            var ExpectedLatestDeaths = "187";
 
             Assert.AreEqual(ExpectedLatestDeaths, ActualLatestDeaths);
         }
