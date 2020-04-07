@@ -10,7 +10,6 @@ C:\Users\Abdirahiim\source\repos\CovidSharp\CovidSharp\obj\Debug\netstandard2.0\
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\bin\Debug\netstandard2.0\CovidSharp.deps.json
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\bin\Debug\netstandard2.0\CovidSharp.dll
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\bin\Debug\netstandard2.0\CovidSharp.pdb
-C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\obj\Debug\netstandard2.0\CovidSharp.csprojAssemblyReference.cache
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\obj\Debug\netstandard2.0\CovidSharp.csproj.CoreCompileInputs.cache
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\obj\Debug\netstandard2.0\CovidSharp.AssemblyInfoInputs.cache
 C:\Users\Abdirahiim\source\repos\CovidSharp - Github\CovidSharp\CovidSharp\obj\Debug\netstandard2.0\CovidSharp.AssemblyInfo.cs
