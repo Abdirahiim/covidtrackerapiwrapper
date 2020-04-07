@@ -44,6 +44,16 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "Aleksey-Nikonov",
+      "name": "Aleksey-Nikonov",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11257605?v=4",
+      "profile": "https://github.com/Aleksey-Nikonov",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
