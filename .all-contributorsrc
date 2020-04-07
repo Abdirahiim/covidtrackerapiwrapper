@@ -14,7 +14,8 @@
         "code",
         "doc",
         "example",
-        "maintenance"
+        "maintenance",
+        "test"
       ]
     },
     {
